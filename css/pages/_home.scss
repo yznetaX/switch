@@ -1,0 +1,598 @@
+.hide
+{
+    display: none;
+}
+/*Start What We Do*/
+.what-we-do
+{
+    padding: 50px 0 70px;
+    .what-header{
+        position: relative;
+        h1
+        {
+            margin-bottom: 10px;
+            color: #828181;
+            letter-spacing: 7.3px;
+            font-weight: 300;
+        }
+        .border-span
+            {
+                display: block;
+                border: 2px solid #828181;
+                width: 100px;
+                margin: auto;
+                border-radius: 5px;
+            }
+        p
+        {
+            color: #b7b3b3;
+            margin-top: 10px;
+        }
+    }
+    .what-we-do-box
+    {
+        .we-box-one
+        {
+            margin-bottom: 10px;
+            i
+            {
+                width: 150px;
+                height: 150px;
+                line-height: 150px;
+                background-color: #dde0dd;
+                border-radius: 30px;
+                color: $greenColor;
+            }
+            h4
+            {
+                margin: 20px 0;
+                color: #828181;
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+            p
+            {
+                color: #828181;
+                line-height: 1.4;
+            }
+            span
+            {
+                font-size: 1rem;
+                background-color: $greenColor;
+                padding: 5px 20px;
+                display: inline-block;
+                margin-top: 10px;
+                border-radius: 20px;
+                color: #FFF;
+            }
+        }
+    }
+}
+/*End What We Do*/
+
+/*Strat Our Latest Work*/
+.our-latest-work
+{
+    background-color: $greenColor;
+    padding: 50px 0;
+    .our-suffle
+    {
+        margin: 20px 0;
+        ul
+        {
+            overflow: hidden;
+            display: inline-block;
+            background-color: #FFF;
+            line-height: 40px;
+            height: 40px;
+            border-radius: 20px;
+            color: #2b9b2b;
+            border: 1px solid #2b9b2b;
+            li
+            {
+                padding: 0 10px;
+                cursor: pointer;
+                display: inline-block;
+                &:not(:first-child)
+                {
+                    border-left: 1px solid #2e922e;
+                }
+                &.selected
+                {
+                background: #2b9b2b;
+                color: #DDD;
+                }
+            }
+        }
+    }
+    .our-work-header
+    {
+        h1
+        {
+            margin-bottom: 10px;
+            color: #2e922e;
+            letter-spacing: 7.3px;
+            font-weight: 300;
+        }
+        .border-span
+        {
+            display: block;
+            border: 2px solid #2e922e;
+            width: 100px;
+            margin: auto;
+            border-radius: 5px;
+        }
+        p
+        {
+            color: #2b9b2b;
+            margin-top: 10px;
+        }
+    }
+    .our-latest-box
+    {
+        .latest-box
+        {
+            .latest-img
+            {
+                -webkit-transition: all .5s ease-out;
+                -moz-transition: all .5s ease-out;
+                transition: all .5s ease-out;
+                margin-bottom: 10px;
+                background-size: cover;
+                background-position: center;
+                padding: 0;
+                margin-bottom: 25px;
+                img
+                {
+                    max-width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .view-our-latest
+    {
+        display: inline-block;
+        color: #FFF;
+        background-color: #2b9b2b;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 1.125rem;
+        cursor: pointer;
+        margin-top: 20px;
+        i
+        {
+            margin-left: 10px;
+        }
+    }
+}
+/*End Our Latest Work*/
+
+/*Start Testimonials*/
+.testimonials
+{
+    padding: 50px 0;
+    position: relative;
+    .testimonials-header
+    {
+        h1
+        {
+            margin-bottom: 10px;
+            color: #828181;
+            letter-spacing: 7.3px;
+            font-weight: 300;
+        }
+        .border-span
+        {
+            display: block;
+            border: 2px solid #828181;
+            width: 100px;
+            margin: auto;
+            border-radius: 5px;
+        }
+        p
+        {
+            color: #b7b3b3;
+            margin-top: 10px;
+        }
+
+    }
+    .testimonials-slider
+    {
+        position: relative;
+        padding-top: 50px;
+        .testimonials-q
+        {
+           
+            p
+            {
+                font-size: 1rem;
+                font-weight: 500;
+                color: #444;
+            }
+            .testim
+            {
+                width: 230px;
+                display: inline-block;
+                .testim-img
+                {
+                    display: inline-block;
+                    float: left;
+                    width: 75px;
+                    height: 75px;
+                    line-height: 70px;
+                    border: 1px solid #CCC;
+                    border-radius: 50%;
+                    img
+                    {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                h3
+                {
+                    color: #444;
+                    font-size: 1rem;
+                    font-weight: bold;
+                }
+                span
+                {
+                    color: #CCC;
+                    font-size: 1rem;
+                    font-weight: bold;
+                }
+            }
+     
+        }
+        .i-right
+        {
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            color: #e0dfdf;
+        }
+        .i-left
+        {
+            cursor: pointer;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            color: #e0dfdf;
+        }
+    }
+}
+/*End Testimonials*/
+
+/*Start Our Happy Client*/
+.our-happy-client
+{
+    background-color: #f2f1f1;
+    padding: 50px 0;
+    .our-happy-client-header
+    {
+        h1
+        {
+            margin-bottom: 10px;
+            color: #828181;
+            letter-spacing: 7.3px;
+            font-weight: 300;
+        }
+        .border-span
+            {
+                display: block;
+                border: 2px solid #828181;
+                width: 100px;
+                margin: auto;
+                border-radius: 5px;
+            }
+        p
+        {
+            color: #b7b3b3;
+            margin-top: 10px;
+        }
+    }
+    .our-client
+    {
+        .client-box
+        {
+            .client-img
+            {
+                cursor: pointer;
+                img
+                {
+                    filter: gray;
+                    filter: grayscale(1);
+                    -webkit-filter: grayscale(1);
+                    -webkit-transition: all .5s ease-in-out;
+                    -moz-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                    &:hover
+                    {
+                        filter: none;
+                    }
+                }
+            }
+        }
+    }
+    .client-span
+    {
+        display: inline-block;
+        background-color: #dddcdc;
+        padding: 8px 30px;
+        border-radius: 20px;
+        margin-top: 30px;
+        color: #a59d9d;
+        cursor: pointer;
+        i
+        {
+            margin-left: 20px;
+        }
+    }
+}
+/*End Our Happy Client*/
+/*Start Meet The Team*/
+.meet-the-team
+{
+    padding: 70px 0 0 0;
+    background-color: $greenColor;
+    .the-team-header
+    {
+        margin-bottom: 55px;
+        h1
+        {
+            margin-bottom: 10px;
+            color: #2e922e;
+            letter-spacing: 7.3px;
+            font-weight: 300;
+        }
+        .border-span
+        {
+            display: block;
+            border: 2px solid #2e922e;
+            width: 100px;
+            margin: auto;
+            border-radius: 5px;
+        }
+        p
+        {
+            color: #2b9b2b;
+            margin-top: 10px;
+        }       
+    }
+    .the-team
+    {
+        width: 100%;
+        display: flex;
+        @media (max-width: 576px) {
+            display: block;
+        }
+        @media (min-width: 576px) and (max-width: 991px) {
+            display: block;
+        }
+        margin-bottom: 50px;
+        .the-team-box
+        {
+            position: relative;
+            &:not(:first-child)
+            {
+                margin-left: 5px;
+            }
+            img
+            {
+                max-width: 100%;
+                border-radius: 50%;
+            }
+            h3
+            {
+                font-size: 1rem;
+                color: #FFF;
+            }
+            .line-team{
+                width: 2.5px;
+                height: 71px;
+                display: block;
+                background: #2e922e;
+                border-radius: 20px;
+                margin-left: 90px;
+                margin-top: 8px;
+                margin-bottom: 15px;
+            }
+        }
+        .team-det
+        {
+            background: rgba($color: #c5e9c5, $alpha: 0.6);
+            padding: 5px 15px 10px 15px;
+            border-radius: 20px;
+            img
+            {
+                cursor: pointer;
+            }
+        }
+    }
+    .work-with-us
+    {
+        background-color: #3eba3e;
+        padding: 40px 0;
+        .work-button
+        {
+            display: inline-block;
+            background-color: #54d154;
+            width: 180px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 1.16rem;
+            color: #c6f0c6;
+            border-radius: 20px;
+            box-shadow: 1px 2px 2px #099c37;
+            cursor: pointer;
+        }
+    }
+}
+/*End Meet The Team*/
+.all-section
+{
+    background-color: #333;
+    padding: 25px 0 40px 0;
+/* Start About US */
+.about-us
+{
+    .all-section-header
+    {
+        margin-bottom: 10px;
+        color: #dddddd;
+        letter-spacing: 5.3px;
+        font-weight: 300;
+    }
+    .border-span
+    {
+        display: block;
+        border: 2px solid #dddddd;
+        width: 100px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .about-p
+    {
+        color: #dddddd;
+        margin-top: 20px;
+    }
+    .about-det
+    {
+        background: rgba($color: #e6e7e6, $alpha: 0.6);
+        padding: 5px 15px 10px 15px;
+        border-radius: 20px;
+        img
+        {
+            cursor: pointer;
+        }
+    }
+}
+/*End About US*/
+/* Start Latest Posts */
+.recent-post
+{
+    @media (min-width:576px) {
+        text-align: center;
+    }
+    .all-section-header
+    {
+        margin-bottom: 10px;
+        color: #dddddd;
+        letter-spacing: 5.3px;
+        font-weight: 300;
+    }
+    .border-span
+    {
+        display: block;
+        border: 2px solid #dddddd;
+        width: 100px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .post-det
+    {
+        @media (max-width:576px) {
+            text-align: center;
+        }
+        height: 45px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        img
+        {
+            max-width: 100%;
+            max-height: 100%;
+            float: left;
+        }
+        .post-desc
+        {
+            height: 100%;
+            p
+            {
+                font-size: 1rem;
+                color: #dddddd;
+                margin-bottom: 0;
+                text-align: left;
+                text-indent: 10px;
+            }
+            .recent-span
+            {
+                font-size: 0.79rem;
+                color: #dddddd;
+                display: inline-block;
+                text-align: left;
+                padding: 0px 10px;
+                margin-left: 13px;
+                float: left;
+                background-color: #54d154;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+/* End Latest Posts */
+/* Start Contact US */
+.contact-us
+{
+    .all-section-header
+    {
+        margin-bottom: 10px;
+        color: #dddddd;
+        letter-spacing: 5.3px;
+        font-weight: 300;
+    }
+    .border-span
+    {
+        display: block;
+        border: 2px solid #dddddd;
+        width: 100px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .contact-text
+    {
+        color: #DDDDDD;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea
+    {
+        background-color: #444;
+        border: none;
+        outline: none;
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+        text-indent: 5px;
+    }
+    input[type="text"]
+    {
+        height: 30px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    input[type="email"]
+    {
+        height: 30px;
+    }
+    textarea
+    {
+
+    }
+    .button-contact
+    {
+        background-color: #2b9b2b;
+        color: #DDD;
+        padding: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+/* End Contact US */
+}
+.clearfix
+{
+    clear: both;
+}

@@ -1,0 +1,173 @@
+.switch-header
+{
+    position: relative;
+    background: -webkit-gradient(liner, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("image/header.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, .2) 100%), url('image/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    .switch-nav
+    {
+        position: relative;
+        .ul-switch
+        {
+            text-align: left;
+            li
+            {
+                cursor: pointer;
+                font: {weight: normal; size:1rem;}
+                display: inline-block;
+                &:not(:last-child)
+                {
+                    margin-right: 15px;
+                }
+                &.active
+                {
+                    border: { top: 2px solid $greenColor;}
+                }
+                a
+                {
+                    text-decoration: none;
+                    color: #FFF;
+                }
+            }
+        }
+        .dropdown-switch
+        {
+            background-color: transparent;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            display: none;
+            @media (max-width: 567px) {
+                display: block !important;
+            }
+            span:first-of-type
+            {
+                display: block;
+                width: 50px;
+                height: 4px;
+                background-color: #FFF;
+            }
+            span:nth-of-type(2)
+            {
+                display: block;
+                width: 40px;
+                height: 4px;
+                background-color: #FFF;               
+            }
+            span:nth-of-type(3)
+            {
+                display: block;
+                width: 30px;
+                height: 4px;
+                background-color: #FFF;  
+            }
+            span:nth-of-type(4)
+            {
+                display: block;
+                width: 40px;
+                height: 4px;
+                background-color: #FFF;               
+            }
+            span:nth-of-type(5)
+            {
+                display: block;
+                width: 50px;
+                height: 4px;
+                background-color: #FFF;  
+            }
+            span:nth-of-type(6)
+            {
+                display: block;
+                width: 40px;
+                height: 4px;
+                background-color: #FFF;  
+            }
+            span:not(:last-of-type)
+            {
+                margin-bottom: 3px;
+            }
+        }
+        h3
+        {
+            font: { size: 1.5rem;}
+            text-align: center;
+            padding: 0;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        .switch-search
+        {
+            text-align: right;
+            form
+            {
+                cursor: pointer;
+                position: relative;
+                margin-top: 5px;
+                input[type="search"]
+                {
+                    cursor: pointer;
+                    background: $grayColor;
+                    border: none;
+                    border-radius: 20px;
+                    padding: {right: 10px; left:  10px;}
+                    &::-webkit-input-placeholder
+                    {
+                        color: #1F1F1F;
+                    }
+                    outline: none;
+                }
+                i
+                {
+                    position: absolute;
+                    right: 12px;
+                    top: 4px;
+                    color: #1F1F1F;
+                }
+            }
+        }
+    }
+    .scroll-down
+    {
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+        span
+        {
+            background: $grayColor;
+            color: #1F1F1F;
+            font-weight: normal;
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+        i
+        {
+            color: #1F1F1F;
+            margin-left: 10px;
+        }
+    }
+}
+.switch-description
+{
+    h1
+    {
+        font-size: 3.43rem;
+
+    }
+    span
+    {
+        font-size: 1.37rem;
+        background-color: $greenColor;
+        padding: 5px 20px;
+        display: inline-block;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+}
